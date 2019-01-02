@@ -1,0 +1,267 @@
+/* General */
+*
+{
+  margin : 0;
+  padding : 0;
+}
+body
+{
+  font-family : Arial, sans-serif;
+  font-size : 15px;
+}
+header
+{
+  height : 120px;
+}
+ul
+{
+  list-style: none;
+}
+header li a
+{
+  text-decoration: none;
+  color : #444;
+  font-weight: bold;
+}
+/* header */
+h1
+{
+  font-family: 'Crete Round', serif;
+  font-size : 45px;
+  color: #444;
+  float: left;
+  margin-top: 32px;
+}
+.wrapper
+{
+  width: 940px;
+  margin : 0 auto;
+  padding : 0 10px;
+}
+nav
+{
+  float: right;
+  margin-top: 50px;
+}
+.orange
+{
+  color : #FF7A00;
+}
+header nav ul li
+{
+  display: inline-block;
+  margin-right : 20px;
+  float : left;
+}
+
+/* grosse image */
+
+#image
+{
+   height: 400px;
+   background: url('images/main.jpg') center;
+}
+
+.button
+{
+  color : white;
+  display:inline-block;
+  padding : 5px 20px 5px 20px;;
+  border-radius: 4px;
+  background-color: orange;
+  margin-left: 47%;
+  text-decoration: none;
+}
+h2
+{
+  color : #444;
+  text-transform: uppercase;
+  font-size: 60px;
+  padding-top: 130px;
+  text-align: center;
+}
+.bold
+{
+  font-weight: bold;
+}
+
+/* 3 images en dessous */
+section ul
+{
+  display: inline;
+}
+section ul li
+{
+  margin-top: 20px;
+  width: 300px;
+  float: left;
+  padding-top: 140px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+h4
+{
+  text-align: center;
+  text-transform: uppercase;
+  color : #444;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+p
+{
+  line-height: 20px;
+  color : #777;
+}
+#img-1
+{
+  background: url('images/steps-icon-1.png') no-repeat top center;
+}
+#img-2
+{
+  background: url('images/steps-icon-2.png') no-repeat top center;
+}
+#img-3
+{
+  background: url('images/steps-icon-3.png') no-repeat top center;
+}
+
+/* info */
+
+#info
+{
+  margin-top: 300px;
+  width: 100%;
+  height: 270px;
+  background-color : #efefef;
+  padding: 60px 0;
+}
+
+#info article
+{
+  width: 420px;
+  height: 270px;
+  float: left;
+  border-radius: 10px;
+}
+#info-1
+{
+  background: url('images/article-image-1.jpg') no-repeat top center;
+  margin-right: 20px;
+}
+#info-2
+{
+  background: url('images/article-image-2.jpg') no-repeat top center;
+}
+
+.overlay
+{
+  background: rgba(255,255,255, 0.95);
+  height: 100%;
+  width: 210px;
+  border-radius: 10px 0px 0px 10px;
+  text-align: center;
+}
+
+article h4
+{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+p small
+{
+    font-size: 13px;
+    font-style: italic;
+    padding : 20px;
+    margin-bottom: 20px;
+}
+
+article .button2
+{
+  background-color : orange;
+  color : white;
+  border-radius : 5px;
+  text-decoration: none;
+  margin-top : 20px;
+  padding : 5px 10px 5px 10px;
+}
+
+/* contact */
+
+#contact h3
+{
+  width: 300px;
+  padding: 30px;
+  margin: 0 auto 20px auto;
+  text-align: center;
+  text-transform: uppercase;
+  color : #444;
+  border-bottom: 1px solid #02b8dd;
+}
+
+#contact p
+{
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+form
+{
+  text-align: center;
+}
+
+label
+{
+  font-weight: bold;
+  font-size: 20px;
+/*  margin-right: 10px; */
+  color : #777;
+}
+
+input[type="text"]
+{
+  padding : 10px;
+  font-size : 20px;
+  margin-right: 20px;
+  border: 2px solid #ddd;
+}
+
+input[type="submit"]
+{
+  color : #fff;
+  font-size: 20px;
+  font-weight: bold;
+  padding : 11px;
+  background-color: #02b8dd;
+  border-style : none;
+  border-radius: 3px;
+}
+
+/* Footer */
+
+footer
+{
+  margin-top: 30px;
+  height: 260px;
+  text-align: center;
+  background-color: #444;
+}
+
+footer h1
+{
+  font-family: 'Crete Round', serif;
+  font-size : 45px;
+  color: #fff;
+  margin-top: 32px;
+  margin-left: 33%;
+}
+
+.copyright
+{
+  font-weight: bold;
+  color: #777;
+  padding-top: 150px;
+}
